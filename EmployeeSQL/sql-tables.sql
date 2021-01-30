@@ -22,6 +22,7 @@ PRIMARY KEY (dept_no, emp_no)
 CREATE TABLE employees(
 emp_no INT PRIMARY KEY,
 emp_title_id VARCHAR,
+FOREIGN KEY (emp_title_id) REFERENCES titles(title_id),
 birth_date VARCHAR,
 first_name VARCHAR,
 last_name VARCHAR,
