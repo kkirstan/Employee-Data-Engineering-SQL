@@ -44,7 +44,8 @@ INNER JOIN dept_employees
 ON employees.emp_no=dept_employees.emp_no
 INNER JOIN departments
 ON departments.dept_no=dept_employees.dept_no
-WHERE departments.dept_name='Sales';
+WHERE dept_name
+IN ('Sales');
 
 SELECT employees.emp_no,
 employees.last_name,
@@ -55,8 +56,8 @@ INNER JOIN dept_employees
 ON employees.emp_no=dept_employees.emp_no
 INNER JOIN departments
 ON departments.dept_no=dept_employees.dept_no
-WHERE departments.dept_name='Sales'
-OR departments.dept_name='Development';
+WHERE dept_name 
+IN ('Sales','Development');
 
 SELECT last_name, COUNT(*) AS freq_count
 FROM employees
