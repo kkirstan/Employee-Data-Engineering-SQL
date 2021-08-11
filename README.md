@@ -54,4 +54,4 @@ Once you have a complete database, do the following:
 
 ![count](EmployeeSQL/Images/count.png)
 
-The SQL code for these queries can be found in the EmployeeSQL folder, in the [queries.sql](queries.sql) file.
+The SQL code for these queries can be found in the EmployeeSQL folder, in the [queries.sql](EmployeeSQL/queries.sql) file.
