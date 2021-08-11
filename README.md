@@ -5,14 +5,14 @@
 For this project I used mock employee data contained within six CSV files to create an SQL database. In order to do this, I designed tables to hold the data in the CSVs and imported the CSVs into a SQL database. Once this was complete, I was able to run queries to answer questions about the data.
 
 # Data Modeling
-Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like http://www.quickdatabasediagrams.com. The ERD for this project can be found in the ERD.png file, located in the EmployeeSQL folder.
+Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like http://www.quickdatabasediagrams.com. The ERD for this project can be found in the [ERD.png](EmployeeSQL/ERD.png) file, located in the EmployeeSQL folder.
 
 ![ERD](EmployeeSQL/ERD.png)
 
 # Data Engineering
 Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints. For the primary keys check to see if the column is unique, otherwise create a composite key. Which takes to primary keys in order to uniquely identify a row. Be sure to create tables in the correct order to handle foreign keys.
 
-For this project, the tables schema can be found in the table_schema.sql file, located in the EmployeeSQL folder.
+For this project, the tables schema can be found in the [table_schema.sql](EmployeeSQL/table_schema.sql) file, located in the EmployeeSQL folder.
 
 Import each CSV file into the corresponding SQL table. Note be sure to import the data in the same order that the tables were created and account for the headers when importing to avoid errors. 
 
