@@ -4,6 +4,12 @@
 
 For this project I used mock employee data contained within six CSV files to create an SQL database. In order to do this, I designed tables to hold the data in the CSVs and imported the CSVs into a SQL database. Once this was complete, I was able to run queries to answer questions about the data.
 
+# Technology Used
+- SQL
+- Primary Keys
+- Foreign Keys
+- Entity Relationship Diagram (ERD)
+
 # Data Modeling
 I inspected the CSVs and sketched out an ERD of the tables. The ERD for this project can be found in the [ERD.png](EmployeeSQL/ERD.png) file, located in the EmployeeSQL folder.
 
